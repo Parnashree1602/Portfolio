@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parnashree Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left"><span class="left-p">P</span> arnashree.</div>
+      <div class="right">
+        <ul id="sidemenu">
+          <li><a href="#firstSection">Home</a></li>
+          <li><a href="#secondSection">About</a></li>
+          <li><a href="#thirdSection">Projects</a></li>
+          <li><a href="#fourthSection">Skills</a></li>
+          <li><a href="#fifthSection">Contact Me</a></li>
+          <i class="closeb" id="closeicon">
+            <ion-icon name="close" onclick="closemenu()"></ion-icon>
+          </i>
+        </ul>
+      </div>
+      <i class="menub" id="menuicon" onclick="openmenu()">
+        <ion-icon name="menu"></ion-icon>
+      </i>
+    </nav>
+  </header>
+  <main>
+    <!-- -----------home------------ -->
+    <section class="firstSection" id="firstSection">
+      <div class="leftSection">
+        Hi, I'm <div class="purple s"> Parnashree</div>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="tt4.png" alt="" />
+      </div>
+    </section>
+    <!-- --------------about--------------------- -->
+    <section class="secondSection" id="secondSection">
+      <div class="container">
+        <div class="row">
+          <div class="col1">
+            <img src="tt4.png" alt="" />
+          </div>
+          <div class="col2">
+            <span class="f">About </span>
+            <span class="sec">Me</span>
+            <div class="row2">
+              I'm Parnashree, I'm a
+              <span id="el" class="purple"></span>
+            </div>
+            <p>
+              Hi Guys, I am Parnashree Das. I am currently 3rd year undergrad
+              student pursuing B.Tech from National Institute of Technology,
+              Agartala. I enjoy taking complex problems and turning them into
+              simple and beautiful applications. I have learnt Frontend and
+              currently learning on Backend Development. I am a CP enthusiast
+              and I love building the logic and structure of coding. When I m
+              not coding you'll find me painting.
+            </p>
+            <div class="education">
+              <div class="education-row">
+                <div class="education-column">
+                  <h3 class="ed">Education</h3>
+                  <div class="education-box">
+                    <div class="education-content">
+                      <div class="content">
+                        <div class="year">
+                          <ion-icon name="calendar-clear"></ion-icon>
+                          2021-2025
+                        </div>
+                        <h3>National Institute of Technology, Agartala</h3>
+                        <p>Bachelor of Technology in Computer Science</p>
+                      </div>
+                      <div class="content">
+                        <div class="year">
+                          <ion-icon name="calendar-clear"></ion-icon>
+                          2019-2021
+                        </div>
+                        <h3>Hindi H.S. School, Agartala</h3>
+                        <p>Senior Secondary( Score- 88.2%)</p>
+                      </div>
+                      <div class="content">
+                        <div class="year">
+                          <ion-icon name="calendar-clear"></ion-icon>
+                          2017-2019
+                        </div>
+                        <h3>Bhavan's Tripura Vidya Mandir, Agartala</h3>
+                        <p>Secondary( Score- 96.6%)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="education2">
+          <div class="education-row2">
+            <div class="education-column2">
+              <h3 class="ed2">Education</h3>
+              <div class="education-box2">
+                <div class="education-content2">
+                  <div class="content2">
+                    <div class="year2">
+                      <ion-icon name="calendar-clear"></ion-icon> 2021-2025
+                    </div>
+                    <h3>National Institute of Technology, Agartala</h3>
+                    <p>Bachelor of Technology in Computer Science</p>
+                  </div>
+                  <div class="content2">
+                    <div class="year2">
+                      <ion-icon name="calendar-clear"></ion-icon> 2019-2021
+                    </div>
+                    <h3>Hindi H.S. School, Agartala</h3>
+                    <p>Senior Secondary( Score- 88.2%)</p>
+                  </div>
+                  <div class="content2">
+                    <div class="year2">
+                      <ion-icon name="calendar-clear"></ion-icon> 2017-2019
+                    </div>
+                    <h3>Bhavan's Tripura Vidya Mandir, Agartala</h3>
+                    <p>Secondary( Score- 96.6%)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------------projects----------------- -->
+    <section class="thirdSection" id="thirdSection">
+      <div class="container2">
+        <div class="h">
+          <span class="f">My </span>
+          <span class="sec">Works</span>
+        </div>
+        <div class="work-list">
+          <div class="work">
+            <img src="im1.jpeg" />
+            <div class="layer">
+              <h3>NEWS Website</h3>
+              <p>
+                This website fetches news information and updates in a
+                visually appealing and user-friendly manner.
+              </p>
+              <a href="https://parnashree1602.github.io/abcNews/" target="_blank">
+                <ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="im2.jpeg" />
+            <div class="layer">
+              <h3>Login Register Page</h3>
+              <p>
+                This is login, register page template that can be easily
+                integrated into web applications.
+              </p>
+              <a href="https://parnashree1602.github.io/Login/" target="_blank">
+                <ion-icon name="link-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="im3.jpeg" />
+            <div class="layer">
+              <h3>Calculator</h3>
+              <p>
+                This wsebsite is an interactive web application
+                designed to provide users with a tool for
+                performing basic mathematical calculations.
+              </p>
+              <a href="https://parnashree1602.github.io/calculator/ " target="_blank">
+                <ion-icon name="link"></ion-icon>
+                </ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------skills------------- -->
+    <section class="fourthSection" id="fourthSection">
+      <div class="container3">
+        <div class="h">
+          <span class="f">My </span>
+          <span class="sec">Skills</span>
+        </div>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              <circle class="progress-bar2" cx="100" cy="160" r="80"></circle>
+              <circle class="path path-12" cx="100" cy="160" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="c-text">HTML</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              <circle class="progress-bar2" cx="100" cy="160" r="80"></circle>
+              <circle class="path path-22" cx="100" cy="160" r="80"></circle>
+            </svg>
+            <div class="percentage">60%</div>
+            <div class="c-text">CSS</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+              <circle class="progress-bar2" cx="100" cy="160" r="80"></circle>
+              <circle class="path path-32" cx="100" cy="160" r="80"></circle>
+            </svg>
+            <div class="percentage">40%</div>
+            <div class="c-text">JavaScript</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              <circle class="progress-bar2" cx="100" cy="160" r="80"></circle>
+              <circle class="path path-42" cx="100" cy="160" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="c-text">C/C++</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------------------contact-------------- -->
+    <section class="fifthSection" id="fifthSection">
+      <div class="container4">
+        <div class="h">
+          <span class="f">Contact </span>
+          <span class="sec">Me</span>
+        </div>
+        <div class="row">
+          <div class="contact-left">
+            <p>
+              <ion-icon name="mail"></ion-icon>dasparnashree16@gmail.com
+            </p>
+            <p>
+              <ion-icon name="call"></ion-icon>+91-7005362084
+            </p>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/parnashreedas/" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a href="https://github.com/Parnashree1602" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="https://instagram.com/parnashree_1602?igshid=MzNlNGNkZWQ4Mg==" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </div>
+            <a href="My_resume.pdf" download target="_blank" class="btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="Email" placeholder="Your Email" required />
+              <textarea name="Message" rows="8" placeholder="Your Message" required></textarea>
+              <button type="submit" onclick="reload()" class="btn2">
+                Submit
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <span>Copyright &copy; 2023 All rights reserved | Created by </span>
+        <span class="parna">Parnashree</span>.
+      </div>
+    </section>
+  </main>
+  <div class="top">
+    <ion-icon name="arrow-up" class="stop"></ion-icon>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Web Developer", "Front End Developer"],
+      typeSpeed: 50,
+      backDelay: 1500,
+      loop: !0,
+      startDelay: 0,
+    });
+  </script>
+  <script>
+    var typed = new Typed("#el", {
+      strings: ["Student", "Web Developer", "Front-End Developer"],
+      typeSpeed: 50,
+      backDelay: 1500,
+      loop: !0,
+      startDelay: 0,
+    });
+  </script>
+  <script>
+    var typed = new Typed(".purple2", {
+      strings: ["Student", "Web Developer", "Front-End Developer"],
+      typeSpeed: 50,
+      backDelay: 1500,
+      loop: !0,
+      startDelay: 0,
+    });
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
